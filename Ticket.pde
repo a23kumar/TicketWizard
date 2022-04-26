@@ -19,3 +19,11 @@ class Ticket{
     image(ticketGraphic, xImg1, yImg1);
   }
   
+  textAlign(LEFT);
+  fill(0);
+  
+  int xText1 = x1 + graphicWidth;
+  int xText2 = x1 + ticketWidth;
+  int xMovie = (xText + xText2)/2; 
+  int yMovie = int(y1 + 0.15*ticketHeight);
+  text("Insert movie theatre name", xMovie, yMovie);
